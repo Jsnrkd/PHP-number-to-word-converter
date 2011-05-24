@@ -1,0 +1,7 @@
+
+//Example
+$translator = new NumberTranslator();
+$translator->setWords($argv[1]);
+$translator->translateToInteger();
+echo $translator->getResult();
+//End example
